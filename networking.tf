@@ -1,7 +1,7 @@
 # Create a VPC
 resource "aws_vpc" "VPC-DTU" {
   cidr_block = "10.0.0.0/27"
-    tags = {
+  tags = {
     Name = "VPC-DTU"
   }
 }
